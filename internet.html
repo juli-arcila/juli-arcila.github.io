@@ -1,7 +1,123 @@
-<h2>Absolute URLs</h2>
-<p><a href="https://www.w3.org/">W3C</a></p>
-<p><a href="https://www.google.com/">Google</a></p>
+<!DOCTYPE html> 
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet</title>
+    <style>
+        /* Aseguramos que html y body ocupen toda la altura de la ventana */
+        html, body {
+            height: 100%; /* Altura total de la página */
+            margin: 0;    /* Sin márgenes */
+            padding: 0;   /* Sin relleno */
+        }
 
-<h2>Relative URLs</h2>
-<p><a href="html_images.asp">HTML Images</a></p>
-<p><a href="/css/default.asp">CSS Tutorial</a></p>
+        /* Estilo general */
+        body {
+            font-family: Calibri, times new roman;
+            background: linear-gradient(to bottom, #fdcdff, #472d73); /* Gradiente de arriba a abajo */
+            color: #472d73; /* Texto en color morado */
+            text-align: center;
+            min-height: 100vh; /* Asegura que el fondo cubra al menos la altura de la ventana */
+        }
+
+        /* Encabezado */
+        header {
+            padding: 20px;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)); /* Gradiente semitransparente de arriba a abajo */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            color: #fff; /* Texto blanco para que sea legible sobre el gradiente */
+        }
+
+        /* Texto principal */
+        main {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+
+        main p {
+            font-size: 1.2em;
+        }
+
+        /* Título de categorías */
+        main h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        /* Categorías */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        ul li a {
+            color: #951d3c;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Pie de página */
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        footer a {
+            color: #008000;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Internet</h1>
+    </header>
+
+    <main>
+        <p>Découvrons les différents aspects d'Internet et de son fonctionnement.</p>
+        
+        <h2>Histoire d'Internet</h2>
+        <p>Internet a commencé comme un projet militaire aux États-Unis dans les années 1960...</p>
+
+        <h2>Protocole TCP/IP</h2>
+        <p>Le protocole TCP/IP est la base de communication entre les ordinateurs sur Internet...</p>
+
+        <h2>DNS (Domain Name System)</h2>
+        <p>Le DNS est un système qui permet de traduire des noms de domaine en adresses IP...</p>
+
+        <h2>Routage</h2>
+        <p>Le routage est le processus de sélection des chemins dans un réseau pour envoyer des données...</p>
+
+        <h2>Réseaux Pair-à-Pair</h2>
+        <p>Les réseaux pair-à-pair (P2P) permettent à chaque ordinateur de jouer à la fois le rôle de client et de serveur...</p>
+
+        <h2>Conversion Décimale à Binaire</h2>
+        <p>La conversion entre systèmes décimaux et binaires est essentielle pour le fonctionnement des ordinateurs...</p>
+
+    </main>
+
+    <footer>
+        <p>Créé par <a href="https://github.com/juli-arcila" target="_blank">juli-arcila</a></p>
+    </footer>
+</body>
+</html>
