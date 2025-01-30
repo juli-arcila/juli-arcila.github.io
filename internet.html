@@ -1,56 +1,33 @@
-<!DOCTYPE html> 
-<html lang="fr">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Internet</title>
     <style>
-        /* Aseguramos que html y body ocupen toda la altura de la ventana */
-        html, body {
-            height: 100%; /* Altura total de la página */
-            margin: 0;    /* Sin márgenes */
-            padding: 0;   /* Sin relleno */
-        }
-
-        /* Estilo general */
         body {
-            font-family: Calibri, times new roman;
-            background: linear-gradient(to bottom, #fdcdff
-            color: #472d73; /* Texto en color morado */
-            text-align: center;
-            min-height: 100vh; /* Asegura que el fondo cubra al menos la altura de la ventana */
-        }
-
-        /* Encabezado */
-        header {
-            padding: 20px;
-    
-        }
-
-        header h1 {
+            font-family: calibri, times new roman;
+            background-color: #dcf2ff;
             margin: 0;
-            font-size: 3.5em;
-            color: #fff; /* Texto blanco para que sea legible sobre el gradiente */
-        }
-
-        /* Texto principal */
-        main {
-            margin: 50px auto;
             padding: 20px;
-            max-width: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Cambié de center a flex-start para mover el contenido más arriba */
+            height: 100vh;
+            text-align: center;
         }
 
-        main p {
-            font-size: 1.2em;
-        }
-
-        /* Título de categorías */
-        main h2 {
+        h1 {
+            color: #6560a6;
             font-size: 2.5em;
-            margin-bottom: 20px;
         }
 
-        /* Categorías */
+        h2 {
+            font-size: 2em;
+            color: #951d3c;
+            margin-top: 20px;
+        }
+
         ul {
             list-style-type: none;
             padding: 0;
@@ -61,63 +38,31 @@
         }
 
         ul li a {
-            color: #951d3c;
+            color: #8270e7;
             text-decoration: none;
-            font-size: 1.1em;
-            font-weight: bold;
+            font-size: 1.2em;
         }
 
         ul li a:hover {
             text-decoration: underline;
         }
-
-        /* Pie de página */
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.05);
-        }
-
-        footer a {
-            color: #008000;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
-    <header>
+    <div>
         <h1>Internet</h1>
-    </header>
-
-    <main>
-
         
         <h2>Histoire d'Internet</h2>
- 
 
         <h2>Protocole TCP/IP</h2>
 
-
         <h2>DNS (Domain Name System)</h2>
-
 
         <h2>Routage</h2>
 
-
         <h2>Réseaux Pair-à-Pair</h2>
 
-
         <h2>Conversion Décimale à Binaire</h2>
-
-
-    </main>
-
-    <footer>
-        <p>Créé par <a href="https://github.com/juli-arcila" target="_blank">juli-arcila</a></p>
-    </footer>
+    </div>
 </body>
 </html>
