@@ -50,25 +50,36 @@
             margin-bottom: 20px;
         }
 
-        /* Categorías */
+        /* Estilo de las categorías */
         ul {
             list-style-type: none;
             padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         ul li {
-            margin: 10px 0;
+            margin: 10px;
         }
 
+        /* Estilo de los enlaces para que se vean como botones */
         ul li a {
-            color: #951d3c;
-            text-decoration: none;
+            background-color: #951d3c; /* Fondo del botón */
+            color: #fff; /* Texto blanco */
+            padding: 15px 30px; /* Relleno alrededor del texto */
+            border-radius: 10px; /* Bordes redondeados */
+            text-decoration: none; /* Sin subrayado */
             font-size: 1.1em;
             font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s, transform 0.2s; /* Efecto de transición */
         }
 
+        /* Efecto de hover para los botones */
         ul li a:hover {
-            text-decoration: underline;
+            background-color: #720d2f; /* Fondo más oscuro */
+            transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
         }
 
         /* Pie de página */
@@ -99,7 +110,6 @@
         <h2>Catégories</h2>
         <ul>
             <li><a href="https://juli-arcila.github.io/programmation.html" target="_blank">Programmation</a></li>
-            <!-- Modificado el enlace de Réseaux Sociaux -->
             <li><a href="https://juli-arcila.github.io/r%C3%A9seaux%20sociaux.html" target="_blank">Réseaux Sociaux</a></li>
             <li><a href="https://juli-arcila.github.io/internet.html" target="_blank">Internet</a></li>
             <li><a href="#le-web">Le Web</a></li>
